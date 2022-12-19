@@ -14,10 +14,17 @@
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
       <form>
-        <input type="text" name="ccname" autocomplete="on">
-        <input type="number" name="cardnumber" autocomplete="on">
-        <input type="number" name="cvc" autocomplete="on">
-        <input type="number" name="cc-exp" autocomplete="on">
+        <label for="ccname">Card name</label>
+        <input class="input" type="text" name="ccname" autocomplete="on">
+
+        <label for="cardnumber">Card number</label>
+        <input class="input" type="number" name="cardnumber" autocomplete="on">
+
+        <label for="cvc">cvc</label>
+        <input class="input" type="number" name="cvc" autocomplete="on">
+
+        <label for="cc-exp">expiry</label>
+        <input class="input" type="number" name="cc-exp" autocomplete="on">
         <button type="submit">Submit</button>
       </form>
     </div>
